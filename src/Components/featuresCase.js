@@ -1,29 +1,10 @@
-import React, { useState, useEffect, useRef } from "react";
+// src/components/FeatureShowcase.js
+import React, { useState, useEffect } from "react";
 import features from "../data/features";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const FeatureShowcase = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const showcaseRef = useRef(null);
-
-  // Sticky effect on scroll
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!showcaseRef.current) return;
-
-      const rect = showcaseRef.current.getBoundingClientRect();
-      const windowHeight = window.innerHeight;
-
-      if (rect.top <= windowHeight / 2 && rect.bottom >= windowHeight / 2) {
-        showcaseRef.current.classList.add("sticky");
-      } else {
-        showcaseRef.current.classList.remove("sticky");
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   // Auto-advance features every 5s
   useEffect(() => {
@@ -50,8 +31,7 @@ const FeatureShowcase = () => {
 
   return (
     <section
-      ref={showcaseRef}
-      className="relative flex flex-col md:flex-row items-center justify-between min-h-screen px-6 md:px-20 py-12 text-white bg-gradient-animated"
+      className="sticky top-0 flex flex-col md:flex-row items-center justify-between h-screen px-6 md:px-20 py-12 text-white bg-gradient-animated overflow-hidden"
     >
       {/* Left side (Image + content) */}
       <div className="flex flex-col items-center md:items-start md:w-2/3">
