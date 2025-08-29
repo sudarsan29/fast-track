@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+📱 Phone Brands Showcase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React + Tailwind CSS assignment that displays popular phone brands (Apple, Google, Redmi, OnePlus, Samsung) in a continuously scrolling section with a smooth animated background.
 
-## Available Scripts
+Live Video: https://fast-track-bg0rjmkcw-sudarsans-projects-b49c7388.vercel.app/
 
-In the project directory, you can run:
+🚀 Features
 
-### `npm start`
+✅ Continuous Scrolling – Brand logos scroll infinitely from right to left.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Radial Gradient Background – Animated background with smooth color transitions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Brand Highlights – Each phone brand has a name, logo, and short description.
 
-### `npm test`
+✅ Responsive Design – Looks great on desktop, tablet, and mobile screens.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Custom Styling – Tailwind CSS used for professional, clean, and modern UI.
 
-### `npm run build`
+🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js – Frontend framework
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tailwind CSS – Styling and animations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript (ES6+) – Logic
 
-### `npm run eject`
+📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/
+ ├── components/
+ │    └── Features.js   # Main scrolling brands component
+ ├── App.js             # Entry point
+ ├── index.css          # Tailwind styles
+ └── index.js           # React DOM render
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ⚡ Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git clone https://github.com/your-username/phone-brands-showcase.git
+cd phone-brands-showcase
 
-## Learn More
+2. Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Start the project
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Open in browser
 
-### Analyzing the Bundle Size
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📖 Usage
 
-### Making a Progressive Web App
+Open the site to see the infinite scrolling phone brand logos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Background smoothly changes colors with transitions.
 
-### Advanced Configuration
+Works perfectly on mobile devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👨‍💻 Author
 
-### Deployment
+Sudharshan Malyavantam
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+LinkedIn: https://www.linkedin.com/in/sudharshan-malyavantam/
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/sudarsan29
